@@ -1,0 +1,183 @@
+/* About.css */
+
+/* Container styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(9, 58, 101);
+    color: white;
+}
+
+.header img {
+    height: 40px; /* Adjust height according to your design */
+    
+}
+
+.header li {
+    cursor: pointer;
+    margin: 0 15px;
+}
+.about-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background-color: #f4f8fb;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #0056b3;
+  }
+  
+  .about-hero p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Our Story Section */
+  .about-story {
+    padding: 40px 20px;
+  }
+  
+  .about-story h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-story p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* Our Values Section */
+  .about-values {
+    background-color: #f0f4f8;
+    padding: 40px 20px;
+  }
+  
+  .about-values h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-values ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .about-values ul li {
+    margin-bottom: 15px;
+  }
+  
+  .about-values ul li strong {
+    color: #0056b3;
+  }
+  
+  .about-values ul li {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Meet the Team Section */
+  .about-team {
+    padding: 40px 20px;
+  }
+  
+  .about-team h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-team p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Contact Us Section */
+  .about-contact {
+    background-color: #f4f8fb;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-contact h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .about-contact a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .about-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .about-hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .about-story h2,
+    .about-values h2,
+    .about-team h2,
+    .about-contact h2 {
+      font-size: 1.8rem;
+    }
+  
+    .about-hero p,
+    .about-story p,
+    .about-values ul li,
+    .about-team p,
+    .about-contact p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-hero h1 {
+      font-size: 2rem;
+    }
+  
+    .about-hero p {
+      font-size: 1rem;
+    }
+  
+    .about-story h2,
+    .about-values h2,
+    .about-team h2,
+    .about-contact h2 {
+      font-size: 1.6rem;
+    }
+  
+    .about-hero p,
+    .about-story p,
+    .about-values ul li,
+    .about-team p,
+    .about-contact p {
+      font-size: 0.9rem;
+    }
+  }
+  
